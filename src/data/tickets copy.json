@@ -1,0 +1,904 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "title": "Login page not loading",
+      "description": "User reports that the login page fails to load on Chrome",
+      "status": "open",
+      "createdAt": "2024-01-15T09:30:00Z",
+      "owner": "João Silva",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "title": "Database connection timeout",
+      "description": "Production database experiencing intermittent connection issues",
+      "status": "in_progress",
+      "createdAt": "2024-01-14T14:22:00Z",
+      "owner": "Maria Santos",
+      "priority": "critical"
+    },
+    {
+      "id": 3,
+      "title": "Update user profile feature",
+      "description": "Add ability for users to update their profile picture",
+      "status": "open",
+      "createdAt": "2024-01-13T11:00:00Z",
+      "owner": "Pedro Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 4,
+      "title": "Fix typo in dashboard",
+      "description": "Correct spelling error on welcome message",
+      "status": "closed",
+      "createdAt": "2024-01-12T08:15:00Z",
+      "owner": "Ana Oliveira",
+      "priority": "low"
+    },
+    {
+      "id": 5,
+      "title": "API rate limiting not working",
+      "description": "Rate limiter bypassed - needs investigation",
+      "status": "in_progress",
+      "createdAt": "2024-01-11T16:45:00Z",
+      "owner": "Carlos Ferreira",
+      "priority": "high"
+    },
+    {
+      "id": 6,
+      "title": "Mobile responsiveness issues",
+      "description": "Layout broken on tablets and mobile devices",
+      "status": "open",
+      "createdAt": "2024-01-10T13:20:00Z",
+      "owner": "Lucia Martins",
+      "priority": "high"
+    },
+    {
+      "id": 7,
+      "title": "Add dark mode support",
+      "description": "Implement dark theme for better UX",
+      "status": "open",
+      "createdAt": "2024-01-09T10:00:00Z",
+      "owner": "Roberto Alves",
+      "priority": "low"
+    },
+    {
+      "id": 8,
+      "title": "Export to CSV feature",
+      "description": "Users need ability to export data to CSV format",
+      "status": "in_progress",
+      "createdAt": "2024-01-08T09:30:00Z",
+      "owner": "Fernanda Rocha",
+      "priority": "medium"
+    },
+    {
+      "id": 9,
+      "title": "Email notifications not sending",
+      "description": "Notification service offline since yesterday",
+      "status": "critical",
+      "createdAt": "2024-01-07T15:00:00Z",
+      "owner": "Tiago Mendes",
+      "priority": "critical"
+    },
+    {
+      "id": 10,
+      "title": "Password reset link expires too quickly",
+      "description": "Users complaining about expired reset links",
+      "status": "open",
+      "createdAt": "2024-01-06T12:15:00Z",
+      "owner": "Gabriela Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 11,
+      "title": "Search functionality slow",
+      "description": "Search takes too long to return results",
+      "status": "in_progress",
+      "createdAt": "2024-01-05T14:30:00Z",
+      "owner": "Marcus Silva",
+      "priority": "high"
+    },
+    {
+      "id": 12,
+      "title": "Add two-factor authentication",
+      "description": "Implement 2FA for enhanced security",
+      "status": "open",
+      "createdAt": "2024-01-04T11:00:00Z",
+      "owner": "Beatriz Nunes",
+      "priority": "medium"
+    },
+    {
+      "id": 13,
+      "title": "Fix sidebar navigation",
+      "description": "Sidebar menu items misaligned",
+      "status": "closed",
+      "createdAt": "2024-01-03T09:20:00Z",
+      "owner": "Diego Moreira",
+      "priority": "low"
+    },
+    {
+      "id": 14,
+      "title": "Implement caching strategy",
+      "description": "Improve performance with Redis caching",
+      "status": "open",
+      "createdAt": "2024-01-02T16:45:00Z",
+      "owner": "Camila Sousa",
+      "priority": "medium"
+    },
+    {
+      "id": 15,
+      "title": "User deletion not working",
+      "description": "Admin cannot delete user accounts",
+      "status": "in_progress",
+      "createdAt": "2024-01-01T13:10:00Z",
+      "owner": "Rafael Santos",
+      "priority": "high"
+    },
+    {
+      "id": 16,
+      "title": "Improve error messages",
+      "description": "Make error messages more user-friendly",
+      "status": "open",
+      "createdAt": "2023-12-31T10:00:00Z",
+      "owner": "Valentina Lima",
+      "priority": "low"
+    },
+    {
+      "id": 17,
+      "title": "SSL certificate expiring",
+      "description": "SSL cert expires in 7 days",
+      "status": "critical",
+      "createdAt": "2023-12-30T08:30:00Z",
+      "owner": "Gustavo Barbosa",
+      "priority": "critical"
+    },
+    {
+      "id": 18,
+      "title": "Add API documentation",
+      "description": "Create comprehensive API docs",
+      "status": "open",
+      "createdAt": "2023-12-29T14:15:00Z",
+      "owner": "Isadora Castro",
+      "priority": "low"
+    },
+    {
+      "id": 19,
+      "title": "Fix memory leak in service",
+      "description": "Memory usage increasing over time",
+      "status": "in_progress",
+      "createdAt": "2023-12-28T11:45:00Z",
+      "owner": "Leonardo Pires",
+      "priority": "high"
+    },
+    {
+      "id": 20,
+      "title": "Batch import functionality",
+      "description": "Allow bulk upload of records",
+      "status": "open",
+      "createdAt": "2023-12-27T09:00:00Z",
+      "owner": "Miriam Gomes",
+      "priority": "medium"
+    },
+    {
+      "id": 21,
+      "title": "Fix pagination bug",
+      "description": "Next page button not working correctly",
+      "status": "closed",
+      "createdAt": "2023-12-26T15:30:00Z",
+      "owner": "Otavio Dias",
+      "priority": "medium"
+    },
+    {
+      "id": 22,
+      "title": "Add webhook support",
+      "description": "Implement webhooks for external integrations",
+      "status": "open",
+      "createdAt": "2023-12-25T12:00:00Z",
+      "owner": "Patricia Rocha",
+      "priority": "medium"
+    },
+    {
+      "id": 23,
+      "title": "Database backup failing",
+      "description": "Automated backups not completing",
+      "status": "critical",
+      "createdAt": "2023-12-24T10:15:00Z",
+      "owner": "Quentin Souza",
+      "priority": "critical"
+    },
+    {
+      "id": 24,
+      "title": "Improve test coverage",
+      "description": "Increase unit test coverage to 80%",
+      "status": "in_progress",
+      "createdAt": "2023-12-23T13:45:00Z",
+      "owner": "Rafaela Medeiros",
+      "priority": "low"
+    },
+    {
+      "id": 25,
+      "title": "Add filtering options",
+      "description": "Users need more filter options on list view",
+      "status": "open",
+      "createdAt": "2023-12-22T11:20:00Z",
+      "owner": "Samuel Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 26,
+      "title": "Fix date picker calendar",
+      "description": "Calendar widget not displaying correctly",
+      "status": "closed",
+      "createdAt": "2023-12-21T09:00:00Z",
+      "owner": "Tabata Oliveira",
+      "priority": "low"
+    },
+    {
+      "id": 27,
+      "title": "Upgrade to Node 20",
+      "description": "Update Node.js runtime version",
+      "status": "open",
+      "createdAt": "2023-12-20T14:30:00Z",
+      "owner": "Ubirajara Silva",
+      "priority": "low"
+    },
+    {
+      "id": 28,
+      "title": "Performance monitoring dashboard",
+      "description": "Create real-time performance metrics display",
+      "status": "in_progress",
+      "createdAt": "2023-12-19T10:45:00Z",
+      "owner": "Veronica Lima",
+      "priority": "medium"
+    },
+    {
+      "id": 29,
+      "title": "Fix sorting on reports",
+      "description": "Column sorting not working in reports",
+      "status": "open",
+      "createdAt": "2023-12-18T16:20:00Z",
+      "owner": "Wagner Santos",
+      "priority": "high"
+    },
+    {
+      "id": 30,
+      "title": "Add multi-language support",
+      "description": "Implement i18n for multiple languages",
+      "status": "open",
+      "createdAt": "2023-12-17T11:10:00Z",
+      "owner": "Ximena Rocha",
+      "priority": "low"
+    },
+    {
+      "id": 31,
+      "title": "Server error on report generation",
+      "description": "500 error when generating large reports",
+      "status": "in_progress",
+      "createdAt": "2023-12-16T13:00:00Z",
+      "owner": "Yuri Martins",
+      "priority": "high"
+    },
+    {
+      "id": 32,
+      "title": "Update dependencies",
+      "description": "Security patches available for npm packages",
+      "status": "open",
+      "createdAt": "2023-12-15T09:30:00Z",
+      "owner": "Zelia Dias",
+      "priority": "high"
+    },
+    {
+      "id": 33,
+      "title": "Form validation errors unclear",
+      "description": "Users confused by validation error messages",
+      "status": "closed",
+      "createdAt": "2023-12-14T15:45:00Z",
+      "owner": "Alice Ferreira",
+      "priority": "low"
+    },
+    {
+      "id": 34,
+      "title": "Add audit logging",
+      "description": "Track all user actions for compliance",
+      "status": "in_progress",
+      "createdAt": "2023-12-13T12:20:00Z",
+      "owner": "Bruno Gomes",
+      "priority": "medium"
+    },
+    {
+      "id": 35,
+      "title": "Optimize database queries",
+      "description": "Several N+1 query problems detected",
+      "status": "open",
+      "createdAt": "2023-12-12T10:00:00Z",
+      "owner": "Celia Motta",
+      "priority": "high"
+    },
+    {
+      "id": 36,
+      "title": "Fix modal alignment",
+      "description": "Modal dialogs misaligned on small screens",
+      "status": "closed",
+      "createdAt": "2023-12-11T14:15:00Z",
+      "owner": "Danilo Alves",
+      "priority": "low"
+    },
+    {
+      "id": 37,
+      "title": "Add user preferences",
+      "description": "Let users customize dashboard layout",
+      "status": "open",
+      "createdAt": "2023-12-10T11:45:00Z",
+      "owner": "Elena Ribeiro",
+      "priority": "medium"
+    },
+    {
+      "id": 38,
+      "title": "Email template updates",
+      "description": "Rebrand email templates with new logo",
+      "status": "in_progress",
+      "createdAt": "2023-12-09T09:30:00Z",
+      "owner": "Felipe Nunes",
+      "priority": "low"
+    },
+    {
+      "id": 39,
+      "title": "Add API rate limiting",
+      "description": "Prevent API abuse with request throttling",
+      "status": "open",
+      "createdAt": "2023-12-08T16:00:00Z",
+      "owner": "Giordana Costa",
+      "priority": "high"
+    },
+    {
+      "id": 40,
+      "title": "Fix redirect after login",
+      "description": "Users redirected to wrong page after login",
+      "status": "closed",
+      "createdAt": "2023-12-07T13:30:00Z",
+      "owner": "Helio Sousa",
+      "priority": "medium"
+    },
+    {
+      "id": 41,
+      "title": "Implement session timeout",
+      "description": "Auto-logout inactive users",
+      "status": "in_progress",
+      "createdAt": "2023-12-06T10:15:00Z",
+      "owner": "Iris Oliveira",
+      "priority": "medium"
+    },
+    {
+      "id": 42,
+      "title": "Add bulk actions",
+      "description": "Allow users to perform actions on multiple records",
+      "status": "open",
+      "createdAt": "2023-12-05T14:45:00Z",
+      "owner": "Julio Ferreira",
+      "priority": "medium"
+    },
+    {
+      "id": 43,
+      "title": "Fix console errors",
+      "description": "JavaScript errors appearing in console",
+      "status": "closed",
+      "createdAt": "2023-12-04T11:20:00Z",
+      "owner": "Karen Martins",
+      "priority": "low"
+    },
+    {
+      "id": 44,
+      "title": "Migrate to PostgreSQL",
+      "description": "Move from MySQL to PostgreSQL",
+      "status": "open",
+      "createdAt": "2023-12-03T09:00:00Z",
+      "owner": "Leandro Silva",
+      "priority": "high"
+    },
+    {
+      "id": 45,
+      "title": "Add API versioning",
+      "description": "Implement API v2 with new features",
+      "status": "in_progress",
+      "createdAt": "2023-12-02T15:30:00Z",
+      "owner": "Monica Dias",
+      "priority": "medium"
+    },
+    {
+      "id": 46,
+      "title": "Fix image upload size limit",
+      "description": "Increase max file size to 10MB",
+      "status": "closed",
+      "createdAt": "2023-12-01T12:45:00Z",
+      "owner": "Nadia Rocha",
+      "priority": "low"
+    },
+    {
+      "id": 47,
+      "title": "Add data validation",
+      "description": "Implement strict input validation rules",
+      "status": "open",
+      "createdAt": "2023-11-30T10:30:00Z",
+      "owner": "Ovidio Gomes",
+      "priority": "high"
+    },
+    {
+      "id": 48,
+      "title": "Improve loading performance",
+      "description": "Reduce initial page load time",
+      "status": "in_progress",
+      "createdAt": "2023-11-29T14:00:00Z",
+      "owner": "Pamela Alves",
+      "priority": "high"
+    },
+    {
+      "id": 49,
+      "title": "Add notification center",
+      "description": "Create in-app notification system",
+      "status": "open",
+      "createdAt": "2023-11-28T11:15:00Z",
+      "owner": "Quirino Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 50,
+      "title": "Fix tab switching",
+      "description": "Tab content not switching correctly",
+      "status": "closed",
+      "createdAt": "2023-11-27T09:45:00Z",
+      "owner": "Rita Sousa",
+      "priority": "low"
+    },
+    {
+      "id": 51,
+      "title": "Add analytics tracking",
+      "description": "Implement Google Analytics integration",
+      "status": "in_progress",
+      "createdAt": "2023-11-26T16:20:00Z",
+      "owner": "Sergio Nunes",
+      "priority": "low"
+    },
+    {
+      "id": 52,
+      "title": "Fix dropdown menu overlap",
+      "description": "Dropdown menu hidden behind other elements",
+      "status": "closed",
+      "createdAt": "2023-11-25T13:10:00Z",
+      "owner": "Taisa Martins",
+      "priority": "low"
+    },
+    {
+      "id": 53,
+      "title": "Implement undo/redo functionality",
+      "description": "Add undo/redo for user actions",
+      "status": "open",
+      "createdAt": "2023-11-24T10:40:00Z",
+      "owner": "Umberto Silva",
+      "priority": "medium"
+    },
+    {
+      "id": 54,
+      "title": "Add search history",
+      "description": "Store and display user search history",
+      "status": "in_progress",
+      "createdAt": "2023-11-23T15:25:00Z",
+      "owner": "Vanessa Rocha",
+      "priority": "low"
+    },
+    {
+      "id": 55,
+      "title": "Fix tooltip positioning",
+      "description": "Tooltips appearing in wrong position",
+      "status": "closed",
+      "createdAt": "2023-11-22T12:00:00Z",
+      "owner": "Waldir Ferreira",
+      "priority": "low"
+    },
+    {
+      "id": 56,
+      "title": "Add batch export",
+      "description": "Export multiple records at once",
+      "status": "open",
+      "createdAt": "2023-11-21T09:30:00Z",
+      "owner": "Ximena Dias",
+      "priority": "medium"
+    },
+    {
+      "id": 57,
+      "title": "Implement full-text search",
+      "description": "Add advanced search capabilities",
+      "status": "in_progress",
+      "createdAt": "2023-11-20T14:50:00Z",
+      "owner": "Yara Oliveira",
+      "priority": "high"
+    },
+    {
+      "id": 58,
+      "title": "Fix button hover state",
+      "description": "Buttons not showing hover effect",
+      "status": "closed",
+      "createdAt": "2023-11-19T11:20:00Z",
+      "owner": "Zoe Gomes",
+      "priority": "low"
+    },
+    {
+      "id": 59,
+      "title": "Add user activity log",
+      "description": "Show user login history and activities",
+      "status": "open",
+      "createdAt": "2023-11-18T16:45:00Z",
+      "owner": "Adriano Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 60,
+      "title": "Performance test suite",
+      "description": "Create performance benchmarks",
+      "status": "in_progress",
+      "createdAt": "2023-11-17T13:15:00Z",
+      "owner": "Bruna Sousa",
+      "priority": "low"
+    },
+    {
+      "id": 61,
+      "title": "Fix form field focus",
+      "description": "Focus not working on form fields",
+      "status": "closed",
+      "createdAt": "2023-11-16T10:30:00Z",
+      "owner": "Claudio Silva",
+      "priority": "low"
+    },
+    {
+      "id": 62,
+      "title": "Add backup retention policy",
+      "description": "Implement automatic backup cleanup",
+      "status": "open",
+      "createdAt": "2023-11-15T15:00:00Z",
+      "owner": "Diana Martins",
+      "priority": "medium"
+    },
+    {
+      "id": 63,
+      "title": "Implement row selection",
+      "description": "Add checkboxes for selecting multiple rows",
+      "status": "in_progress",
+      "createdAt": "2023-11-14T12:30:00Z",
+      "owner": "Evandro Rocha",
+      "priority": "medium"
+    },
+    {
+      "id": 64,
+      "title": "Fix keyboard navigation",
+      "description": "Tab key not navigating correctly",
+      "status": "closed",
+      "createdAt": "2023-11-13T09:15:00Z",
+      "owner": "Fabiana Nunes",
+      "priority": "low"
+    },
+    {
+      "id": 65,
+      "title": "Add GDPR compliance features",
+      "description": "Implement data export and deletion",
+      "status": "open",
+      "createdAt": "2023-11-12T14:40:00Z",
+      "owner": "Gerson Dias",
+      "priority": "high"
+    },
+    {
+      "id": 66,
+      "title": "Optimize image assets",
+      "description": "Reduce image file sizes for faster loading",
+      "status": "in_progress",
+      "createdAt": "2023-11-11T11:25:00Z",
+      "owner": "Helena Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 67,
+      "title": "Fix autocomplete dropdown",
+      "description": "Dropdown not closing after selection",
+      "status": "closed",
+      "createdAt": "2023-11-10T16:10:00Z",
+      "owner": "Igor Ferreira",
+      "priority": "low"
+    },
+    {
+      "id": 68,
+      "title": "Add comment system",
+      "description": "Allow users to comment on records",
+      "status": "open",
+      "createdAt": "2023-11-09T13:45:00Z",
+      "owner": "Jade Oliveira",
+      "priority": "medium"
+    },
+    {
+      "id": 69,
+      "title": "Implement row versioning",
+      "description": "Track changes to record history",
+      "status": "in_progress",
+      "createdAt": "2023-11-08T10:20:00Z",
+      "owner": "Kevin Sousa",
+      "priority": "medium"
+    },
+    {
+      "id": 70,
+      "title": "Fix print layout",
+      "description": "Print page has formatting issues",
+      "status": "closed",
+      "createdAt": "2023-11-07T15:35:00Z",
+      "owner": "Leticia Silva",
+      "priority": "low"
+    },
+    {
+      "id": 71,
+      "title": "Add file versioning",
+      "description": "Allow users to access previous file versions",
+      "status": "open",
+      "createdAt": "2023-11-06T12:05:00Z",
+      "owner": "Marcelo Gomes",
+      "priority": "low"
+    },
+    {
+      "id": 72,
+      "title": "Implement webhook logging",
+      "description": "Log all webhook calls for debugging",
+      "status": "in_progress",
+      "createdAt": "2023-11-05T09:50:00Z",
+      "owner": "Neusa Dias",
+      "priority": "low"
+    },
+    {
+      "id": 73,
+      "title": "Fix text truncation",
+      "description": "Long text not truncating with ellipsis",
+      "status": "closed",
+      "createdAt": "2023-11-04T14:15:00Z",
+      "owner": "Odair Rocha",
+      "priority": "low"
+    },
+    {
+      "id": 74,
+      "title": "Add bulk update functionality",
+      "description": "Update multiple records in batch",
+      "status": "open",
+      "createdAt": "2023-11-03T11:30:00Z",
+      "owner": "Petra Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 75,
+      "title": "Implement data compression",
+      "description": "Compress data for faster transmission",
+      "status": "in_progress",
+      "createdAt": "2023-11-02T16:00:00Z",
+      "owner": "Quito Martins",
+      "priority": "low"
+    },
+    {
+      "id": 76,
+      "title": "Fix currency formatting",
+      "description": "Currency values not formatting correctly",
+      "status": "closed",
+      "createdAt": "2023-11-01T13:20:00Z",
+      "owner": "Rosalina Sousa",
+      "priority": "low"
+    },
+    {
+      "id": 77,
+      "title": "Add smart search suggestions",
+      "description": "Provide search suggestions based on history",
+      "status": "open",
+      "createdAt": "2023-10-31T10:45:00Z",
+      "owner": "Salvio Silva",
+      "priority": "medium"
+    },
+    {
+      "id": 78,
+      "title": "Implement role-based access control",
+      "description": "Add fine-grained permission system",
+      "status": "in_progress",
+      "createdAt": "2023-10-30T15:10:00Z",
+      "owner": "Talita Nunes",
+      "priority": "high"
+    },
+    {
+      "id": 79,
+      "title": "Fix responsive grid layout",
+      "description": "Grid not responsive on tablets",
+      "status": "closed",
+      "createdAt": "2023-10-29T12:40:00Z",
+      "owner": "Urbano Dias",
+      "priority": "low"
+    },
+    {
+      "id": 80,
+      "title": "Add data import from Excel",
+      "description": "Allow Excel file uploads",
+      "status": "open",
+      "createdAt": "2023-10-28T09:25:00Z",
+      "owner": "Vanilda Rocha",
+      "priority": "medium"
+    },
+    {
+      "id": 81,
+      "title": "Implement smart caching",
+      "description": "Cache frequently accessed data",
+      "status": "in_progress",
+      "createdAt": "2023-10-27T14:55:00Z",
+      "owner": "Waldemiro Ferreira",
+      "priority": "high"
+    },
+    {
+      "id": 82,
+      "title": "Fix date range picker",
+      "description": "Date picker not working correctly",
+      "status": "closed",
+      "createdAt": "2023-10-26T11:35:00Z",
+      "owner": "Ximena Oliveira",
+      "priority": "low"
+    },
+    {
+      "id": 83,
+      "title": "Add notification preferences",
+      "description": "Let users customize notifications",
+      "status": "open",
+      "createdAt": "2023-10-25T16:20:00Z",
+      "owner": "Yuri Costa",
+      "priority": "low"
+    },
+    {
+      "id": 84,
+      "title": "Implement data deduplication",
+      "description": "Remove duplicate records automatically",
+      "status": "in_progress",
+      "createdAt": "2023-10-24T13:00:00Z",
+      "owner": "Zelia Gomes",
+      "priority": "medium"
+    },
+    {
+      "id": 85,
+      "title": "Fix chart rendering",
+      "description": "Charts not displaying correctly",
+      "status": "closed",
+      "createdAt": "2023-10-23T10:15:00Z",
+      "owner": "Adalberto Silva",
+      "priority": "low"
+    },
+    {
+      "id": 86,
+      "title": "Add data retention policy",
+      "description": "Automatically delete old records",
+      "status": "open",
+      "createdAt": "2023-10-22T15T30:00Z",
+      "owner": "Benedita Dias",
+      "priority": "medium"
+    },
+    {
+      "id": 87,
+      "title": "Implement batch deletion",
+      "description": "Delete multiple records at once",
+      "status": "in_progress",
+      "createdAt": "2023-10-21T12:50:00Z",
+      "owner": "Cornelia Rocha",
+      "priority": "medium"
+    },
+    {
+      "id": 88,
+      "title": "Fix number input spinner",
+      "description": "Number input up/down arrows not working",
+      "status": "closed",
+      "createdAt": "2023-10-20T09:40:00Z",
+      "owner": "Deodoro Costa",
+      "priority": "low"
+    },
+    {
+      "id": 89,
+      "title": "Add real-time collaboration",
+      "description": "Multiple users editing same record",
+      "status": "open",
+      "createdAt": "2023-10-19T14:25:00Z",
+      "owner": "Elisa Martins",
+      "priority": "high"
+    },
+    {
+      "id": 90,
+      "title": "Implement data validation rules",
+      "description": "Create custom validation rules",
+      "status": "in_progress",
+      "createdAt": "2023-10-18T11T05:00Z",
+      "owner": "Francisco Sousa",
+      "priority": "medium"
+    },
+    {
+      "id": 91,
+      "title": "Fix label alignment",
+      "description": "Form labels misaligned",
+      "status": "closed",
+      "createdAt": "2023-10-17T16T45:00Z",
+      "owner": "Glaucia Nunes",
+      "priority": "low"
+    },
+    {
+      "id": 92,
+      "title": "Add scheduled tasks",
+      "description": "Allow scheduling of recurring tasks",
+      "status": "open",
+      "createdAt": "2023-10-16T13T20:00Z",
+      "owner": "Hamilton Dias",
+      "priority": "medium"
+    },
+    {
+      "id": 93,
+      "title": "Implement request signing",
+      "description": "Sign API requests for security",
+      "status": "in_progress",
+      "createdAt": "2023-10-15T10T35:00Z",
+      "owner": "Iris Rocha",
+      "priority": "high"
+    },
+    {
+      "id": 94,
+      "title": "Fix select option scrolling",
+      "description": "Select dropdown scroll not working",
+      "status": "closed",
+      "createdAt": "2023-10-14T15T10:00Z",
+      "owner": "Jarbas Ferreira",
+      "priority": "low"
+    },
+    {
+      "id": 95,
+      "title": "Add field-level permissions",
+      "description": "Control field visibility per user",
+      "status": "open",
+      "createdAt": "2023-10-13T12T55:00Z",
+      "owner": "Keila Silva",
+      "priority": "high"
+    },
+    {
+      "id": 96,
+      "title": "Implement progressive loading",
+      "description": "Load data progressively as user scrolls",
+      "status": "in_progress",
+      "createdAt": "2023-10-12T09T30:00Z",
+      "owner": "Ludmila Gomes",
+      "priority": "medium"
+    },
+    {
+      "id": 97,
+      "title": "Fix textarea resize handle",
+      "description": "Textarea resize handle not visible",
+      "status": "closed",
+      "createdAt": "2023-10-11T14T15:00Z",
+      "owner": "Marcia Costa",
+      "priority": "low"
+    },
+    {
+      "id": 98,
+      "title": "Add activity feed",
+      "description": "Show feed of recent activities",
+      "status": "open",
+      "createdAt": "2023-10-10T11T40:00Z",
+      "owner": "Nilson Dias",
+      "priority": "low"
+    },
+    {
+      "id": 99,
+      "title": "Implement auto-save feature",
+      "description": "Auto-save user changes periodically",
+      "status": "in_progress",
+      "createdAt": "2023-10-09T16T25:00Z",
+      "owner": "Oronilda Rocha",
+      "priority": "medium"
+    },
+    {
+      "id": 100,
+      "title": "Fix loading spinner animation",
+      "description": "Loading spinner not animating smoothly",
+      "status": "closed",
+      "createdAt": "2023-10-08T13T05:00Z",
+      "owner": "Prudencio Silva",
+      "priority": "low"
+    }
+  ]
+}

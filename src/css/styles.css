@@ -3,3 +3,12 @@ body {
   padding: 24px;
   font-family: Arial, sans-serif;
 }
+
+th {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 20px;
+}
+
+td {
+  padding: 10px 20px;
+}

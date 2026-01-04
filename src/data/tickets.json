@@ -1,0 +1,49 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "title": "Login page not loading",
+      "description": "User reports that the login page fails to load on Chrome",
+      "status": "open",
+      "createdAt": "2024-01-15T09:30:00Z",
+      "owner": "João Silva",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "title": "Database connection timeout",
+      "description": "Production database experiencing intermittent connection issues",
+      "status": "in_progress",
+      "createdAt": "2024-01-14T14:22:00Z",
+      "owner": "Maria Santos",
+      "priority": "critical"
+    },
+    {
+      "id": 3,
+      "title": "Update user profile feature",
+      "description": "Add ability for users to update their profile picture",
+      "status": "open",
+      "createdAt": "2024-01-13T11:00:00Z",
+      "owner": "Pedro Costa",
+      "priority": "medium"
+    },
+    {
+      "id": 4,
+      "title": "Fix typo in dashboard",
+      "description": "Correct spelling error on welcome message",
+      "status": "closed",
+      "createdAt": "2024-01-12T08:15:00Z",
+      "owner": "Ana Oliveira",
+      "priority": "low"
+    },
+    {
+      "id": 5,
+      "title": "API rate limiting not working",
+      "description": "Rate limiter bypassed - needs investigation",
+      "status": "in_progress",
+      "createdAt": "2024-01-11T16:45:00Z",
+      "owner": "Carlos Ferreira",
+      "priority": "high"
+    }
+  ]
+}
